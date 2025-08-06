@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/techium-discord-arabic-spark">
+      <BrowserRouter basename="/qbitt">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
@@ -26,3 +26,4 @@ const App = () => (
 );
 
 export default App;
+
