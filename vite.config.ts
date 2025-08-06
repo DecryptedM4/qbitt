@@ -14,8 +14,8 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    // Only enable Lovable tagger in development AND when explicitly requested
+    mode === 'development' && process.env.LOVABLE_DEV === 'true' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
