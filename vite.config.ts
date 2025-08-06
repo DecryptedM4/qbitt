@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Add base path for GitHub Pages (replace 'qbit' with your actual repo name)
-  base: mode === 'production' ? '/qbitt/' : '/',
+  // Use root path for custom domain, subdirectory for GitHub Pages
+  base: mode === 'production' && process.env.GITHUB_PAGES ? '/qbitt/' : '/',
   
   server: {
     host: "::",
