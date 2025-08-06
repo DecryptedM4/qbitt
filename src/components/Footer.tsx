@@ -54,7 +54,7 @@ const Footer = () => {
                   alt="Techium Logo" 
                   className="w-12 h-12 rounded-full animate-pulse-glow"
                 />
-                <h3 className="text-2xl font-bold text-gradient">تكنيوم</h3>
+                <h3 className="text-2xl font-bold text-gradient">كيو بت</h3>
               </div>
               <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
                 نحن فريق كيو بت المتخصص في تقديم خدمات تقنية احترافية عبر الديسكورد. نوفر تحسين وتطوير أداء البيسيات والدعم التقني المجاني، بالإضافة إلى بيع سورسات البوتات والحلول التقنية المبتكرة.
@@ -171,5 +171,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
