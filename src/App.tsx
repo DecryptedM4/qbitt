@@ -18,7 +18,7 @@ const App = () => {
         return '/';
       }
       // If using GitHub Pages subdomain, use repository path
-      return '/qbitt'; // Your actual repository name
+      return '/'; // Your actual repository name
     }
     return '/';
   };
