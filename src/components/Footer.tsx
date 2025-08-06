@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 space-x-reverse mb-6">
                 <img 
-                  src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
+                  src="./lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
                   alt="Techium Logo" 
                   className="w-12 h-12 rounded-full animate-pulse-glow"
                 />

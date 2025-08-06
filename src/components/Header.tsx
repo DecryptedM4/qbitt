@@ -30,7 +30,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3 space-x-reverse">
             <img 
-              src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
+              src="./lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png" 
               alt="Techium Logo" 
               className="w-10 h-10 rounded-full animate-pulse-glow"
             />

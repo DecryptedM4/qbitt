@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="relative inline-block">
             <div className="absolute inset-0 bg-gradient-primary rounded-full blur-2xl opacity-50 animate-pulse"></div>
             <img
-              src="/lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png"
+              src="./lovable-uploads/3d6be7a9-3fb0-49ad-8c79-8e6f4452e12d.png"
               alt="Techium Logo"
               className="w-32 h-32 mx-auto rounded-full border-4 border-primary/50 relative z-10 shadow-intense hover:scale-110 transition-bounce"
             />

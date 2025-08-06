@@ -8,7 +8,7 @@ const Team = () => {
     {
       name: "marshaled",
       role: " مؤسس ومطور رئيسي",
-      avatar: "/lovable-uploads/marshaled-avatar.png",
+      avatar: "./lovable-uploads/marshaled-avatar.png",
       status: "متاح",
       specialty: "تطوير البوتات وتحسين الأداء",
       icon: <Crown className="w-5 h-5 text-yellow-500" />,
@@ -17,7 +17,7 @@ const Team = () => {
     {
       name: "Silent",
       role: "خبير التطوير و الأنظمة",
-      avatar: "/lovable-uploads/silent-avatar.png",
+      avatar: "./lovable-uploads/silent-avatar.png",
       status: "متاح",
       specialty: "حلول الأنظمة والأمان",
       icon: <Shield className="w-5 h-5 text-blue-500" />,
@@ -26,7 +26,7 @@ const Team = () => {
     {
       name: "Proff",
       role: "خبير التطوير",
-      avatar: "/lovable-uploads/proff-avatar.webp",
+      avatar: "./lovable-uploads/proff-avatar.webp",
       status: "متاح",
       specialty: "البرمجة المتقدمة والتطوير",
       icon: <Code2 className="w-5 h-5 text-purple-500" />,
